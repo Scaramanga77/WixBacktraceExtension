@@ -22,12 +22,12 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\..\..\Source\PPM\Development\Source\packages\WixBacktraceExtension.1.0.20\lib\net40\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\WixBacktraceExtension.XML</DocumentationFile>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -72,7 +72,7 @@
     <Reference Include="System.Management" />
     <Reference Include="System.XML" />
     <Reference Include="wix">
-      <HintPath>$(WixBinPath)\wix.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\WiX Toolset v3.9\bin\wix.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
